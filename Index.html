@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuStyle - Sustentabilidade com estilo</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"></script>
+    <link rel="icon" href="favicon.ico">
+   
+</head> 
+  
+<body class="body">
+ 
+    <nav class="dp-menu">
+       <img class="img" src="apenasfantasma.png" alt="apenas fantasma">
+        <img class="letra" src="sustyleLettering.png" alt="letra">
+        <ul>
+            <li><a href="#"> Produtos</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Cursos</a></li>
+        </ul>
+        <ul>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        
+            <div class="btn-search">
+            <input class="form-control me-4 col" type="search" placeholder="Pesquisar..."  aria-label="Search">
+           
+        </div>   
+        <a class="lupa" href="#">&#x1F50E;</a>
+        <div class="icons">
+        <a href="#" style="align-items: center;"><img src="perfil.png"/></a>
+        
+        <a href="#"><img src="carrinho.png"/></a>
+      </div>
+</nav>
+<br>
+
+<hr size="6" class="line1">
+<hr size="6" class="line2">
+<hr size="6" class="line3">
+
+<section class="imagens">
+<center>
+<img class="img-ferramentas" src="fundo.jpg" alt="ferramentas">
+
+
+<img class="img-quimica" src="fundo.jpg" alt="quimica">
+
+<img class="img-roupa" src="fundo.jpg" alt="roupa">
+
+
+</center>
+
+</section>
+
+
+<div class="sub-title">
+<center>
+<h5 class="sub-title1">Produtos em Destaque</h5>
+</center>
+</div class="sub-title">
+<br><br>
+
+<!--<section class="card-prod">
+<div class="card1">
+    <div class="card" style="width: 18rem; border-radius: 6px;">
+    <img src="produtos/calçapreta-masc.png" class="card-img-top" alt="calça preta masculina">
+    <div class="card-body">
+      <h5 class="card-title">Calça Masculina Preta</h5>
+      <p class="card-text" style="text-align: justify;">Calça social masculina preta em tecido de Algodão. Super confortável e suporta lavagens e com garantia de 7 dias com nossa loja SuStyle &copy;<br>
+      </p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+</div>
+
+<div class="card2">
+  <div class="card" style="width: 18rem; border-radius: 6px;">
+    <img src="produtos/camisetapreta-masc.png" class="card-img-top" alt="camiseta preta masculina"><br><br>
+    <div class="card-body">
+      <h5 class="card-title">Camiseta Masculina Preta</h5>
+      <p class="card-text" style="text-align: justify;">Camiseta masculina preta em tecido de Algodão. Super confortável. Suporta lavagens e com garantia de 7 dias com nossa loja SuStyle &copy;
+      </p>
+      <a href="#" class="btn btn-primary">Comprar</a>
+    </div>
+  </div>
+</div>
+</section>-->
+
+<article>
+  <button class="ScrollTop" onclick="BackTop();">
+    <img src="arrow-top-svgrepo-com.svg" alt="seta">
+  </button>
+
+  <script>
+    window.addEventListener('scroll', function(){
+    let scroll = document.querySelector('.scrollTop')
+    scroll.classList.toggle('active', window.scrollY > 250)
+
+    function BackTop(){
+      window.scrollTo({
+        top: 0, 
+        behavior: "smooth"
+      })
+    }
+  })
+
+  </script>
+</article>
+
+<div class="card-group">
+
+    <div class="card1">
+      <img src="fundo.jpg" alt="Calça Preta">
+        <h5>Calça Social <br> Preta</h5>
+        <p>R$30,00</p>
+        <input type="button" class="button" value="Comprar">
+        </div>
+
+    <div class="card2">
+      <img src="fundo.jpg" alt="Calça Preta">
+        <h5>Camiseta Preta</h5>
+        <p>R$20,00</p>
+        <input type="button" class="button" value="Comprar">
+      </div>
+    
+
+    <div class="card3">
+      <img src="fundo.jpg" alt="Calça Preta">
+        <h5>Leggin Social Preta</h5>
+        <p>R$25,00</p>
+        <input type="button" class="button" value="Comprar">
+      </div>
+    
+
+
+</div>
+
+   
+
+
+<br><br><br><br>
+<section class="perguntas">
+    <center>
+    <h5 class="frequente">Perguntas frequentes</h5>
+    </center>
+</section>  
+
+    <br><br>
+<div class="details">
+    <details>
+        <summary><b>Os produtos estão em quais qualidades?</b></summary>
+            <p style="text-align: justify center;">Temos produtos novos e tambem usados. Nossos produtos usados são muito bem analisados antes de entrar para venda</p>
+        
+    </details>
+</div>
+<br>
+<div class="details">
+  <details>
+      <summary><b>A produção dos uniformes é realizada por vocês?</b></summary>
+          <p style="text-align: justify center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quasi rem, sit, at ipsam aut ea itaque maiores eveniet adipisci natus sunt quaerat praesentium esse suscipit ex ut nisi! Deserunt.</p>
+      
+  </details>
+</div>
+<br>
+<div class="details">
+  <details>
+      <summary><b>Os produtos estão em quais qualidades?</b></summary>
+          <p>Temos produtos novos e tambem usados.<br> Nossos produtos usados são muito bem analisados antes de entrar para venda</p>
+      
+  </details>
+</div>
+
+<br><br>
+
+<hr size="6" class="line5">
+<hr size="6" class="line6">
+<hr size="6" class="line7">
+
+  <div class="bg-dark text-secondary px-1 py-3 text-center" id="footer"> 
+    <div class="py-4">
+     <section class="subtitulo" id="subtitulo">
+        <h6 class="subtitulo1"><i>©️ Copyright <br><br> Todos os direitos reservados.</i></h6><br>
+      <br> </section>
+      <div class="col-lg-6 mx-auto" id="bottom">
+          <p><b><i>Desenvolvido por: </i></b> <a href="mailto:contato.sustyle@gmail.com"><i>sustyle@contato.com</a></i></p>
+
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-secondary btn-sm px-4 me-sm-3 fw-bold"><b>Contatos</b></button>
+          <button type="button" class="btn btn-outline-secondary btn-sm px-4"><b>Trabalhe Conosco!</b></button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
